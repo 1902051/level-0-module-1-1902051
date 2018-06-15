@@ -4,9 +4,12 @@ public class BAGER {
 
 	public static void main(String[] args) {
 		
-		for(int i=0;i<5;i++) {
+int counter = 0;
 		
-	
+		for(int i=0;i<5;i++) {
+			
+			
+
 		//	Badger, badger, badger, badger, badger, badger, badger, badger, badger, badger
 		//	Mushroom, mushroom, a
 		//	Badger, badger, badger, badger, badger, badger, badger, badger, badger, badger
@@ -33,17 +36,28 @@ public class BAGER {
 			
 			
 			
-			for(int e=0;e<10;e++) {
-				
+			for(int k=0;k<10;k++) {
+				if (counter == 44) {
+					System.out.println("Snake!!!");
+				}
+					
 				System.out.println("Badger");
+				counter++;
+		
 			}
-			for(int r=0;er<2;r++) {
+			for(int r=0;r<2;r++) {
+				if (counter == 22) {
+					System.out.println("Snake!!!");
+				}
+					
+				counter++;
 				System.out.println("Mushroom");
 
 			}
-			for(int m=0;m<1;m++) {
-				System.out.println("Snake!!!");
-
+			
+			
+	
+			
 			}
 			
 		}	
@@ -51,4 +65,4 @@ public class BAGER {
 		}
 	
 	}
-}
+
