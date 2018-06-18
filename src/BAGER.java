@@ -46,7 +46,7 @@ int counter = 0;
 		
 			}
 			for(int r=0;r<2;r++) {
-				if (counter == 22) {
+				if (counter == 66) {
 					System.out.println("Snake!!!");
 				}
 					
