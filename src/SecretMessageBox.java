@@ -2,6 +2,7 @@
 //    Level 0
 
 
+import javax.print.DocFlavor.STRING;
 import javax.swing.JOptionPane;
 
 /**
@@ -9,12 +10,26 @@ import javax.swing.JOptionPane;
  * 
  * You want to leave a message on one of the Mac computers so that only your friend can read it.
  * You set up the passcode and the secret message. 
- * Your friend types in the passcode to retrieve the message.
- * 
+ * Your friend types in the passcode to retrieve the message. * 
  */
 
 public class SecretMessageBox {
 
+	
+	public static void main(String[] args) {
+	System.out.println("cool");
+	String bobo = JOptionPane.showInputDialog("What is da passwor");
+
+
+	if (bobo.equals("dorian da dorf")) {
+		JOptionPane.showMessageDialog(null, "Correct!!!!");
+	} else if (bobo.equals("")) {
+	
+		JOptionPane.showMessageDialog(null, "INTRUDER");
+	}
+	
+	
+	
 	// 0. Make a main method and put steps 1-5 inside it
 	
 	// 1. Set a password in a String variable
@@ -28,4 +43,6 @@ public class SecretMessageBox {
 
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 
+	}
+	
 }

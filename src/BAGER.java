@@ -29,7 +29,7 @@ int counter = 0;
 		//	African! Snake, a snake
 		//	Snake! A snake, ooh it's a snake
 		//	It's a badger, badger, badger, badger, badger, badger, badger, badger, badger, badger
-		//	Mushroom, mushroom, a
+		//	Mushroom,mushroom, a
 
 			for(int e=0;e<10;e++) {
 

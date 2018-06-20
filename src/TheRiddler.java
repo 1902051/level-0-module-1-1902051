@@ -4,7 +4,6 @@
 
 
 public class TheRiddler {
-
 	public static void main(String[] args) {
 
 		// 1. Make a variable to hold the score
