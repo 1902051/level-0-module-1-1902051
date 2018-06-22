@@ -1,0 +1,10 @@
+size(1080,720);
+PImage funny = loadImage("funny.jpeg");
+image(funny,0,0);
+ellipse(100,148,65,65);
+ellipse(260,200,65,65);
+ellipse(540,339,25,25);
+ellipse(610,339,25,25);
+ellipse(540,339,25,25);
+ellipse(820,349,25,25);
+ellipse(610,349,25,25);
